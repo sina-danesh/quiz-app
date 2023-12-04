@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/game.css">
+    <title>BOTOSTART | PLAY</title>
+</head>
+
+<body>
+    <span id="loder"></span>
+    <div id="container">
+        <div class="header">
+            <div>
+                <p>Question no:</p>
+                <span id="Question-number">1 </span>
+            </div>
+            <div>
+                <p>Score:</p>
+                <span id="score">0</span>
+            </div>
+        </div>
+        <div id="question-box">
+            <h3 id="Question-text"></h3>
+            <button class="answer-text"></button>
+            <button class="answer-text"></button>
+            <button class="answer-text"></button>
+            <button class="answer-text"></button>
+        </div>
+        <button id="finish-button">finish</button>
+        <button id="next-button">next</button>
+    </div>
+
+
+    <script src="script/game.js" type="module"></script>
+    <script src="script/helper.js" type="module"></script>
+
+</body>
+
+</html>
